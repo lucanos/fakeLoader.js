@@ -102,17 +102,15 @@
 
         //Center Spinner
         function centerLoader() {
-
-            var winW = $(window).width();
-            var winH = $(window).height();
-
             var spinnerW = $('.fl').outerWidth();
             var spinnerH = $('.fl').outerHeight();
 
             $('.fl').css({
-                'position':'absolute',
-                'left':(winW/2)-(spinnerW/2),
-                'top':(winH/2)-(spinnerH/2)
+                position: 'absolute',
+                left: '50%',
+                top: '50%',
+                'left': -(spinnerW/2),
+                'top': -(spinnerH/2)
             });
 
         }

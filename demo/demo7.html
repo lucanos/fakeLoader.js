@@ -18,12 +18,12 @@
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-        <div class="fakeloader"></div>
+        <div id="fakeloader"></div>
 
         <section id="section-navigation">
             
             <div class="container text-center">
-                <a href="http://joaopereirawd.github.io/fakeLoader.js"><button class="btn-default btn-goback">← Article & Download</button></a>
+                <a href="http://joaopereirawd.github.io/fakeLoader.js"><button class="btn-default btn-goback">← Article &amp; Download</button></a>
             </div>
 
             <div class="container text-center">
@@ -43,10 +43,10 @@
         </div>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/fakeLoader.min.js"></script>
+        <script src="js/fakeLoader.js"></script>
         <script>
             $(document).ready(function(){
-                $(".fakeloader").fakeLoader({
+                $("#fakeloader").fakeLoader({
                     timeToHide:1200,
                     bgColor:"#9b59b6",
                     spinner:"spinner7"
